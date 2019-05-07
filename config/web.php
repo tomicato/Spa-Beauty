@@ -53,8 +53,8 @@ $config = [
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.yandex.ru',
-                'username' => 'bej0j88@yandex.ru',
-                'password' => '13131399Az',
+                'username' => 'test@yandex.ru',
+                'password' => '0000000',
                 'port' => '465',
                 'encryption' => 'ssl',
             ],
@@ -70,8 +70,8 @@ $config = [
         ],
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=relation',
-            'username' => 'root',
+            'dsn' => 'mysql:host=localhost;dbname=test',
+            'username' => '1234',
             'password' => '',
             'enableSchemaCache' => true,
 
