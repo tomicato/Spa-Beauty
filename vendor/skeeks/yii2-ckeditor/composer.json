@@ -1,0 +1,30 @@
+{
+    "name": "skeeks/yii2-ckeditor",
+    "description": "CKEditor extension for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "ckeditor"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "SkeekS",
+            "email": "support@skeeks.com",
+            "homepage": "https://skeeks.com"
+        },
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "skeeks\\yii2\\ckeditor\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic,latin-ext');
+
+.list-group-item .right-arrow {
+    float: right;
+}
+.hov ul li{
+    margin-left: 20px;
+}
+.td-text  a{
+    font-weight: 900;
+    color:#d93a83;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #ff73c0;
+    /*border-color: #ff73c0;*/
+    border: 1px solid #ff73c0;
+    border-radius: 100%;
+    font-weight: 900;
+    font-size: 16px;
+}
+.pagination > li > a, .pagination > li > span {
+
+    border: none;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    z-index: 2;
+    color: #23527c;
+   /* background-color: #ff73c08a;*/
+    background-color: transparent;
+   /*border-color: #ff73c08a;*/
+    border-color: transparent;
+    border-radius: 100%;
+    font-weight: 900;
+    font-size: 18px;
+}
+@media screen and (max-width: 767.98px) {
+    .logo {
+        text-align: center;
+        display: none!important;
+    }
+    .serar-cart-icon>ul li a{
+        padding: 10px 8px!important;
+    }
+  }

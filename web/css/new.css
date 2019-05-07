@@ -1,0 +1,68 @@
+#adap-table {
+border: 1px solid #ccc;
+width: 100%;
+margin:0;
+padding:0;
+border-collapse: collapse;
+border-spacing: 0;
+}
+#adap-table tr {
+border: 1px solid #ddd;
+padding: 5px;
+}
+#adap-table th, #adap-table td {
+padding: 10px;
+text-align: center;
+}
+#adap-table th {
+text-transform: uppercase;
+font-size: 14px;
+}
+#adap-table thead tr:first-child{
+background-color:#ccc;
+}
+@media screen and (max-width: 767px) {
+#adap-table tbody tr td:first-child{
+background-color:#ccc;
+}
+#adap-table tbody tr td{
+display:none;
+}
+#adap-table tbody tr td:first-child{
+display:block;
+}
+#adap-table tbody tr:first-child td{
+display:block;
+}
+#adap-table {
+border: 0;
+}
+#adap-table thead {
+display: none;
+}
+#adap-table tr {
+margin-bottom: 10px;
+display: block;
+border-bottom: 2px solid #ddd;
+}
+#adap-table td {
+display: block;
+text-align: right;
+font-size: 13px;
+border-bottom: 1px dotted #ccc;
+}
+#adap-table td:last-child {
+border-bottom: 0;
+}
+#adap-table td:before {
+content: attr(data-label);
+float: left;
+text-transform: uppercase;
+font-weight: bold;
+}
+}
+@media screen and (min-width: 768px) {
+#adap-table tbody tr td{
+display:table-cell!important;
+}
+}

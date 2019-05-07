@@ -1,0 +1,22 @@
+{
+    "name": "moonlandsoft/yii2-tinymce",
+    "description": "The TinyMCE Extension for yii framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","tinymce","wyswyg","editor","text"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moh Khoirul Anam",
+            "email": "moh.khoirul.anaam@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "moonlandsoft/helpers": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "moonland\\tinymce\\": ""
+        }
+    }
+}

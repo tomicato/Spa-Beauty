@@ -1,0 +1,22 @@
+{
+    "name": "lanselot/yii2-parallax-widget",
+    "description": "Wrapper for Yii2 from parallax.js by http://pixelcog.github.io",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","widget"],
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Alexandr Eremin",
+            "email": "eremin_100_93@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lanselot\\parallax\\": ""
+        }
+    }
+}
